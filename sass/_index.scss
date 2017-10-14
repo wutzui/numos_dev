@@ -1,0 +1,256 @@
+// ============================================================================//
+// Top img
+// ============================================================================//
+.header-img {
+   position: absolute;
+   z-index: -100;
+   width: 100vw;
+   height: 420px;
+   opacity: 0.3;
+   background-image: linear-gradient(to bottom, #006dff, #8aa9ff 49%, #ffffff);
+}
+// .header-img img {
+//   position: absolute;
+//   z-index: -100;
+//   width: 100vw;
+// }
+
+// ============================================================================//
+// Header
+// ============================================================================//
+.header-text { // iphone5: width-320px.
+  margin-top: 15vh;
+  color: #1e6ce8;
+  h1 {
+   font-size: 40px;
+   line-height: 40px;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 0.7px;
+  }
+}
+@media (min-width: 375px) {
+   .header-text {
+      margin-top: 20vh;
+      h1 {
+         font-size: 55px;
+         line-height: 60px;
+         text-align: center;
+      }
+   }
+}
+@media (min-width: 414px) {
+   .header-text{
+      margin-top: 25vh;
+   }
+}
+@media (min-width: $width-1024) {
+   .header-text {
+      margin-top: 150px;
+   }
+}
+@media (min-width: $width-1280) {
+   .header-text {
+      margin-top: 160px;
+      h1 {
+      }
+   }
+}
+@media (min-width: $width-1366) {
+   .header-text {
+      margin-top: 250px;
+   }
+}
+@media (min-width: $width-2560) {
+   .header-text {
+      margin-top: 25vh;
+      h1 {
+         font-size: 80px;
+         line-height: 85px;
+         text-align: center;
+      }
+   }
+}
+
+.subscribe_btn {
+   border-radius: 8px;
+   background-color: #1e6ce8;
+   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+   height: 48px;
+   padding: 15px 22px;
+   margin-top: 40px;
+   text-align: center;
+   p {
+      font-size: 16px;
+      line-height: 16px;
+      font-weight: 600;
+      // padding-left: 10px;
+      color: #ffffff;
+   }
+   img {
+      transform: translateY(3px);
+      height: 16px;
+      margin-left: 10px;
+      padding-right: 10px;
+   }
+}
+
+// ============================================================================//
+// Iphone mockup img
+// ============================================================================//
+.top-device-img { // iphone5: width-320px.
+      display: block;   
+}
+@media (min-width: 320px) {
+   .top-device-img {
+      width: 260px;
+      margin-top: 40px;
+   }
+}
+
+@media (min-width: $width-ipad) {
+   .top-device-img {
+      width: 368px;
+      margin-top: 60px;
+      display: block;
+   }
+}
+@media (min-width: $width-1024) {
+   .top-device-img {
+   }
+}
+@media (min-width: $width-1280) {
+   .top-device-img {  
+   }
+}
+@media (min-width: $width-1366) {
+   .top-device-img {
+      margin-top: 170px;
+   }
+}
+@media (min-width: $width-2560) {
+   .top-device-img {
+      width: 18vw;
+      margin-top: 140px;
+      padding-right: 0;
+   }
+}
+
+// ============================================================================//
+// section 1
+// ============================================================================//
+.section-1 { // iphone5: width-320px.
+   margin-top: 180px;
+   display: none;
+}
+@media (min-width: 375px) {
+   .section-1 {
+   }
+}
+@media (min-width: 414px) {
+   .section-1 {
+   }
+}
+
+@media (min-width: $width-ipad) {
+   .section-1 {
+      display: block;
+   }
+}
+@media (min-width: $width-1024) {
+   .section-1 {
+   }
+}
+@media (min-width: $width-1280) {
+   .section-1 {
+   }
+}
+@media (min-width: $width-1920) {
+   .section-1 {
+   }
+}
+@media (min-width: $width-2560) {
+   .section-1 {
+   }
+}
+
+.section-1-content { // iphone5: width-320px.
+   margin-bottom: 60px;
+   img {
+      width: 200px;
+   }
+   h2 {
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 1.25;
+      text-align: left;
+      color: #34373c;
+   }
+   p {
+      font-size: 13px;
+      text-align: left;
+      color: #000000;
+   }
+}
+@media (min-width: 414px) {
+   .section-1-content {
+      p{
+         font-size: 16px;
+         line-height: 24px;         
+      }
+   }
+}
+@media (min-width: $width-1024) {
+   .section-1-content {
+      text-align: left;
+      margin-bottom: 60px;
+   }  
+}
+@media (min-width: $width-1280) {
+   .section-1-content {
+      margin-bottom: 120px;
+      h2 {
+         font-size: 40px;
+         font-weight: bold;
+         line-height: 1.25;
+         text-align: left;
+         color: #34373c;         
+      }
+      span {
+         color: #1e6ce8;
+      }
+      p {
+         font-size: 13px;
+         text-align: left;
+         color: #000000;
+      }
+   }  
+}
+
+
+.section-1-mobile{
+   margin-top: 100px;
+   display: block;   
+}
+@media (min-width: $width-ipad) {
+   .section-1-mobile {
+      display: none;
+   }
+}
+
+
+
+.text-right {
+      margin-right: 0;
+   @media (min-width: $width-1024) {
+      margin-right: 140px;
+   }
+}
+.text-left {
+      margin-left: 0;
+   @media (min-width: $width-1024) {
+      margin-left: 140px;
+   }
+}
+
+
