@@ -74,6 +74,9 @@ footer {
    footer {
       height: 700px;
       bottom: 0px;
+      h2 {
+         margin-bottom: 42px;
+      }
    }
 }
 @media (min-width: $width-1920) {
@@ -268,6 +271,9 @@ footer {
    }
 } 
 
+.forms-field {
+   padding-top: 40px;
+}
 
 // ============================================================================//
 // button
