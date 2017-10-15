@@ -18,7 +18,7 @@ footer {
    margin: 0 auto;
    text-align: center;
    color: #ffffff;
-   bottom: -100px;
+   bottom: 0px;
    letter-spacing: 0.5px;
    background-image: url("blue-bg-2.svg");
    background-repeat: space;
@@ -269,9 +269,12 @@ footer {
       margin-right: 10px;
       margin-bottom: 0px;
    }
-} 
+}
 
 .forms-field {
+   padding-top: 0px;
+}
+@media (min-width: $width-ipad) {
    padding-top: 40px;
 }
 
