@@ -128,9 +128,9 @@ p {
     margin-top: 25vh;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .header-text {
-    margin-top: 150px;
+    margin-top: 18vh;
   }
 }
 @media (min-width: 1200px) {
@@ -145,7 +145,7 @@ p {
 }
 @media (min-width: 2560px) {
   .header-text {
-    margin-top: 25vh;
+    margin-top: 18vh;
   }
   .header-text h1 {
     font-size: 80px;
@@ -181,6 +181,11 @@ p {
   margin-top: 40px;
 }
 
+@media (min-width: 414px) {
+  .top-device-img {
+    width: 300px;
+  }
+}
 @media (min-width: 768px) {
   .top-device-img {
     width: 368px;
@@ -195,7 +200,7 @@ p {
 }
 @media (min-width: 2560px) {
   .top-device-img {
-    width: 18vw;
+    width: 30vw;
     margin-top: 140px;
     padding-right: 0;
   }
@@ -205,7 +210,7 @@ p {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .section-1 {
     display: block;
   }
@@ -270,7 +275,7 @@ p {
   width: 200px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .section-1-mobile {
     display: none;
   }
@@ -296,6 +301,14 @@ p {
   line-height: 20px;
 }
 
+@media (min-width: 414px) {
+  .section-1-content-m h2 {
+    font-size: 30px;
+  }
+  .section-1-content-m p {
+    font-size: 16px;
+  }
+}
 .text-right {
   margin-right: 0;
 }
@@ -348,12 +361,6 @@ footer h2 {
   margin-top: 90px;
 }
 
-@media (min-width: 375px) {
-  footer {
-    bottom: -300px;
-    height: 200px;
-  }
-}
 @media (min-width: 736px) {
   footer {
     bottom: -250px;
@@ -362,23 +369,22 @@ footer h2 {
 }
 @media (min-width: 768px) {
   footer {
-    height: 46vh;
-    bottom: -130px;
+    height: 600px;
+    bottom: 0px;
   }
 }
 @media (min-width: 1024px) {
-  footer {
-    height: 550px;
-    bottom: -200px;
-  }
   footer p {
-    padding-top: 40px;
+    padding-top: 60px;
   }
 }
 @media (min-width: 1200px) {
   footer {
+    width: 100vw;
     height: 700px;
     bottom: 0px;
+    background-image: url("blue-bg-2.png");
+    background-repeat: round;
   }
   footer h2 {
     margin-bottom: 42px;
@@ -386,14 +392,13 @@ footer h2 {
 }
 @media (min-width: 1920px) {
   footer {
-    height: 1000px;
+    height: 700px;
     bottom: 0px;
   }
 }
 @media (min-width: 2560px) {
   footer {
     bottom: 0px;
-    height: 1400px;
   }
 }
 .nav-logo {
@@ -559,6 +564,7 @@ footer h2 {
 @media (min-width: 768px) {
   .form-email {
     width: 340px;
+    margin-top: 40px;
     margin-right: 10px;
     margin-bottom: 0px;
   }

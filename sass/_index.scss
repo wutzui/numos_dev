@@ -44,9 +44,9 @@
       margin-top: 25vh;
    }
 }
-@media (min-width: $width-1024) {
+@media (min-width: $width-ipad) {
    .header-text {
-      margin-top: 150px;
+      margin-top: 18vh;
    }
 }
 @media (min-width: $width-1280) {
@@ -63,7 +63,7 @@
 }
 @media (min-width: $width-2560) {
    .header-text {
-      margin-top: 25vh;
+      margin-top: 18vh;
       h1 {
          font-size: 80px;
          line-height: 85px;
@@ -103,6 +103,12 @@
       width: 260px;
       margin-top: 40px; 
 }
+@media (min-width: 414px) {
+   .top-device-img {
+      width: 300px;
+   }
+}
+
 @media (min-width: $width-ipad) {
    .top-device-img {
       width: 368px;
@@ -125,7 +131,7 @@
 }
 @media (min-width: $width-2560) {
    .top-device-img {
-      width: 18vw;
+      width: 30vw;
       margin-top: 140px;
       padding-right: 0;
    }
@@ -138,13 +144,9 @@
    margin-top: 180px;
    display: none;
 }
-@media (min-width: $width-ipad) {
-   .section-1 {
-      display: block;
-   }
-}
 @media (min-width: $width-1024) {
    .section-1 {
+      display: block;
    }
 }
 @media (min-width: $width-1280) {
@@ -227,11 +229,10 @@
 }
 @media (min-width: 375px) {
    .section-1-mobile {
-
    }
 }
 
-@media (min-width: $width-ipad) {
+@media (min-width: $width-1024) {
    .section-1-mobile {
       display: none;
    }
@@ -258,6 +259,16 @@
       }
 }
 
+@media (min-width: 414px) {
+   .section-1-content-m {
+      h2 {
+         font-size: 30px;
+      }
+      p {
+         font-size: 16px;
+      }
+   }
+}
 
 
 .text-right {
