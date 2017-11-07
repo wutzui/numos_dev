@@ -138,11 +138,6 @@ p {
     margin-top: 160px;
   }
 }
-@media (min-width: 1366px) {
-  .header-text {
-    margin-top: 250px;
-  }
-}
 @media (min-width: 2560px) {
   .header-text {
     margin-top: 18vh;
@@ -191,11 +186,6 @@ p {
     width: 368px;
     margin-top: 60px;
     display: block;
-  }
-}
-@media (min-width: 1366px) {
-  .top-device-img {
-    margin-top: 170px;
   }
 }
 @media (min-width: 2560px) {

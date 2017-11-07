@@ -56,11 +56,6 @@
       }
    }
 }
-@media (min-width: $width-1366) {
-   .header-text {
-      margin-top: 250px;
-   }
-}
 @media (min-width: $width-2560) {
    .header-text {
       margin-top: 18vh;
@@ -122,11 +117,6 @@
 }
 @media (min-width: $width-1280) {
    .top-device-img {  
-   }
-}
-@media (min-width: $width-1366) {
-   .top-device-img {
-      margin-top: 170px;
    }
 }
 @media (min-width: $width-2560) {
